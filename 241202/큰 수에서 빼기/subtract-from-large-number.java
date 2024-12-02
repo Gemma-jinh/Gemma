@@ -7,10 +7,9 @@ public class Main {
         int b = sc.nextInt();
         int c = a - b;
         int d = b - a;
-        if(a>b) {
+        if(a > b) {
             System.out.println(c);
-        } else if(b > a){
-            System.out.println(d);
         }
+        System.out.println(d);
     }
 }
