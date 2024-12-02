@@ -5,11 +5,11 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
-        int c = a - b;
-        int d = b - a;
-        if(a > b) {
-            System.out.println(c);
+        if(a - b > 0) {
+          System.out.println(a - b);
+        } else {
+            System.out.println(b - a);
         }
-        System.out.println(d);
+
     }
 }
