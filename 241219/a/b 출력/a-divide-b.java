@@ -5,11 +5,12 @@ public class Main {
         Scanner sc =new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
-        System.out.print(a/b+ "." + (10*a)/b);
-        int c = (10*a)%b;
+        System.out.print(a/b+ ".");
+        a = a%b;
         int i = 1;
-        while(i<=19) {
-            System.out.print(c);
+        while(i<=20) {
+            System.out.print((10*a)/b);
+            a=(10*a)%b;
             i++;
         }
     }
